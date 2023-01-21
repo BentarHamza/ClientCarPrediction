@@ -14,7 +14,7 @@
 >- Its file concerning the purchases of its customers of the current year
 > - An access to all the information on the registrations made this year
 
-<h1> $\textcolor{brown}{\text{I.1 Machine Learning for predictions}}$ </h1>
+<h1> $\textcolor{brown}{\text{I. Machine Learning for predictions}}$ </h1>
 
 <h2> $\textcolor{Orange}{\text{I.1 cleaning and exploratory data analysis}}$ </h2>
 In this part we begin by identifying and correcting our data from duplicates, inconsistent, erroneous or wrong data in order to evoid unaccurate or misleading conclusions in our analysis.
@@ -130,3 +130,14 @@ The result is giving to marketing department simple of client to predict car's c
 <img src ="https://github.com/BentarHamza/ClientCarPrediction/blob/main/photo/result.PNG">
 </p>
 
+<h1> $\textcolor{brown}{\text{II. Data LAKE}}$ </h1>
+
+We use in our projet a mixed DATA LAKE architecture  (virtual and physical) built around HIVE consists in relying on external tables to access data from heterogeneous sources (MongoDB, a 2nd NoSQL DB of your choice, Hadoop HDFS, Hadoop Hive) for real-time analysis.  Data access for the data analysis part will be done via the HiveQL language from HIVE.  HiveQL (a kind of Big Data SQL) avoids the physical movement of data in the Data Warehouse database or Data lake.
+
+<img src ="https://github.com/BentarHamza/ClientCarPrediction/blob/main/photo/architecture.PNG">
+</p>
+
+> __Note__
+> About the Data Lake.
+> 
+> This part is not completed, the code and clarification will be uploaded after completion. 
