@@ -29,6 +29,12 @@ All duplicated rows in are deleted from our DataSet, categories that represent t
 <h3> $\textcolor{BurntOrange}{\text{I.1.2 Analysing our Data}}$ </h3>
 And after that we start our exploratory trip inside our dataset.
 
+<p align="center">
+<img src ="https://github.com/BentarHamza/ClientCarPrediction/blob/main/photo/Financial_capacity.PNG">
+</p>
+
+
+
 <h2> $\textcolor{Orange}{\text{I.2 Unsupervised classification of car's categories}}$ </h2>
 
 There is two approachs to classify cars categories : 
@@ -101,21 +107,26 @@ After having tried the two methods of clustering, we choose to continue our work
 
 <h2> $\textcolor{Orange}{\text{I.3 supervised classification of cars categories according to customer profile }}$ </h2>
 
+> __Definition :__
+> 
+> __DecisionTreeClassifier__ It's a tree-based approach to model the relationship between the input features and the output labels, in which each internal node represents a test on an input feature and each leaf node represents a class label. The tree is built by recursively splitting the training data based on the feature that results in the largest reduction in impurity. The classifier can be used for both binary and multi-class classification problems and can handle both continuous and categorical input features.
+> 
+> __RandomForestClassifier__ A random forest is a collection of decision trees, where each tree is trained on a random subset of the data (with replacement) and a random subset of the features. During the prediction, the classifier takes the majority vote of all decision trees' predictions. The random forest classifier can be used for both binary and multi-class classification problems and can handle both continuous and categorical input features.
+> 
+> __LogisticRegression__ is a variation of logistic regression for multi-class classification problems. It is used to model the probability of an instance belonging to a particular class out of K classes.
 
+We present each model and his accuracy in the table belows : 
 
+Model  |  accuracy |
+--- | --- |
+DecisionTreeClassifier | 0.780 |
+RandomForestClassifier | 0.777 |
+LogisticRegression |  0.728 |
+MLPClassifier | 0.779  |
 
+The result is giving to marketing department simple of client to predict car's category based on client profile. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p align="center">
+<img src ="https://github.com/BentarHamza/ClientCarPrediction/blob/main/photo/result.PNG">
+</p>
 
