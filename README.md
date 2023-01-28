@@ -1,7 +1,7 @@
 # 
 
 <h1 align="center">Prediction of customer preferences based on its social information (Use case : cars categories) </h1>
-<h2 align="center">we know what's best for you</h2>
+<h2 align="center">We know what's best for you</h2>
 <p align="center">
 <img src ="https://github.com/BentarHamza/ClientCarPrediction/blob/main/photo/big-data-automotive-industry-header-1.jpg">
 </p>
