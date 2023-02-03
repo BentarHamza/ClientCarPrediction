@@ -20,6 +20,7 @@
 
 ## I. Machine Learning for predictions  
 ### I.1 cleaning and exploratory data analysis 
+#### I.1.1 Presenting some problems in DataSet : 
 #### I.1.2 Analysing our Data 
 ### I.2 Unsupervised classification of car's categories 
 #### I.2.1 Method K-MEANS 
@@ -39,7 +40,7 @@
 
 ## I.1 cleaning and exploratory data analysis :
 In this part we begin by identifying and correcting our data from duplicates, inconsistent, erroneous or wrong data in order to evoid unaccurate or misleading conclusions in our analysis.
-<h3> $\textcolor{BurntOrange}{\text{I.1.1 Presenting some problems in DataSet}}$ </h3>
+### I.1.1 Presenting some problems in DataSet : 
 
 <div align="center">
   <img src="https://github.com/BentarHamza/ClientCarPrediction/blob/main/photo/Capture.PNG" width ="200" height = "200" style="display:inline-block;">
